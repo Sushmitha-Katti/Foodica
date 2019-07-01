@@ -1,3 +1,6 @@
+# Foodica
+A Recipe browsing website.The recipes are fetched from edamam webisite and displayed.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
