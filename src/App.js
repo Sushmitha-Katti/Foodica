@@ -1,26 +1,30 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import logo from './logo.svg';
+import Recipes from "./Recipes"
+import background from "./background.jpg";
+import Description from "./Description";
+import { BrowserRouter as Router, Route, Link ,Switch} from "react-router-dom";
+
+import Home from './home';
 import './App.css';
+import Test from './Testfile'
 
-function App() {
+const App = () => {
+ 
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  <>
+  
+       <Router>
+        <div>
+          <Route path="/test" exact strict component={Test} />
+          <Route path="/" exact strict component={Home} />
+           <Route path = "/recipies" exact strict component = {Recipes} /> 
+           <Route path = "/description" exact strict component = {Description} /> 
+        
+        </div>
+      </Router>
+  </>
+   
+  )
 }
-
 export default App;
