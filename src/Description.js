@@ -6,17 +6,17 @@ const Description = (props) => {
     return(
         <>
         <div className = "container" style  = {{marginTop  : 2 + "rem"}}>
-        <div className = "cal"> <strong className = "curve">
-  calories
-</strong>
-        <h6 className = "cal-val">{recipe.calories.toFixed(2)}</h6></div>
-
+        
             <div className = "row">
-                <div className = "col-md-12">
+                <div className = "col-md-10">
                     <h1 style = {{textAlign:"center", marginBottom  : 2 + "rem"}}>{recipe.label}</h1>
                 </div>
-                <div className = "col-md-5">
-
+                <div className = "col-md-2">
+                
+                <bold className = "cal-val">{recipe.calories.toFixed(2)}</bold>
+                <div className = "cal"> <b className = "curve">calories</b>
+                </div>
+                
                 </div>
 
             </div>
@@ -42,11 +42,11 @@ const Description = (props) => {
                 </div>
 
             </div>
-            <div className = "row" style  = {{marginTop  : 2 + "rem"}}>
+            <div className = "row" style  = {{marginTop  : 1 + "rem"}}>
                 <div className = "col-md-6">
                 <div className = "row">
                 <div className = "col-md-7">
-                <h5 className = "prep">Preparation Time: {recipe.totalTime} min</h5>
+                <h5 className = "prep">Preparation Time: {recipe.totalTime > 0?recipe.totalTime:"30" } min</h5>
                 </div>
                 <div className = "col-md-5">
 
