@@ -1,12 +1,7 @@
-# Foodica ([Foodica](http://foodica.surge.sh/).)
-🚶**GO** 👀**SEARCH** 👨🏼‍🍳**COOK** **AND** 😋**EAT**
+# ([Foodica](http://foodica.surge.sh/).)
+🚶**Visit** 👀**SEARCH** 👨🏼‍🍳**COOK** **AND** 😋**EAT**
 This site is exclusively for foodies who love to cook and experiment. There is almost all types of recipies available. 
-
-
-
-**_Want To Try My Site?_**
-
-
+<br>
 **_Here are some Screenshots how website looks_**
 
 *You will land here first. Search for the recipe you want.Lets search for snacks!*
