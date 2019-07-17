@@ -2,7 +2,7 @@
 A Recipe browsing website.The recipes are fetched from edamam webisite and displayed.
 
 ## Project Link
-[Foodica](http://abrasive-part.surge.sh/).
+[Foodica](http://foodica.surge.sh/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
