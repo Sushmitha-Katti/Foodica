@@ -1,5 +1,5 @@
  **FOODICA** 🚶*VISIT* 👀*SEARCH* 👩‍🍳*COOK* *AND* 😋*EAT*<br>
-[click here](http://foodica.surge.sh/){:target="_blank"}
+[click here](http://foodica.surge.sh/)
 
 <br>
 ---
